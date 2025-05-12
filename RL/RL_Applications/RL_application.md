@@ -5,26 +5,29 @@
 
 ## RL and combinatorial optimization
 ### Background
-Traveling Salesman Problem (TSP): Find the shortest route that visits all cities once and returns to the start.
+- Traveling Salesman Problem (TSP): Find the shortest route that visits all cities once and returns to the start.
 
-Job Shop Scheduling Problem (JSSP): Assign jobs to machines in a sequence that minimizes total completion time or delays.
+- Job Shop Scheduling Problem (JSSP): Assign jobs to machines in a sequence that minimizes total completion time or delays.
 
-Chip Design: Optimize the placement and routing of components on a chip to reduce area, power use, and signal delays.
+- Chip Design: Optimize the placement and routing of components on a chip to reduce area, power use, and signal delays.
 
-Unit Commitment (UC): Decide which power units to turn on/off over time to meet demand at minimal cost while satisfying operational constraints.
+- Unit Commitment (UC): Decide which power units to turn on/off over time to meet demand at minimal cost while satisfying operational constraints.
 
 definition: 
 <img src='./images/Screenshot 2025-05-12 at 07.38.30.png' width= '500'/>
 
-traditional solutions : 
-Brute-force search: Tries all possible solutions; complexity is very slow for large 
+Traditional Solutions : 
+- Brute-force search: Examines all possible solutions; accurate but extremely slow for large problems due to factorial complexity.
 
-Dynamic programming: Breaks problems into subproblems; faster by reusing results.
+- Dynamic programming: Solves problems by breaking them into overlapping subproblems; more efficient by storing and reusing results.
 
-Branch and bound: Systematically explores solution space, pruning unpromising paths to reduce computation.
+- Branch and bound: Explores the solution space selectively, pruning branches that can't yield better results to save computation.
 
-evaluation algorithms: 
-pros: accurate solution, cons: height time and space complexity
+- Evolutionary algorithms: Use mechanisms like selection, mutation, and crossover to evolve solutions over time; good for complex, non-linear problems.
+
+- Pros: Can find accurate or near-optimal solutions.
+
+- Cons: Often require high computational time and memory.
 
 ### RL solution
 TSP

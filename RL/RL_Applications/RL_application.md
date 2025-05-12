@@ -34,7 +34,7 @@ TSP
 <img src='./images/Screenshot 2025-05-12 at 08.07.46.png' width= '500'/>
 
 ### challenge
-- generalization ability of the solution: augmented dataset, emsemble learning
+- generalization ability of the solution: augmented dataset, ensemble learning
 <img src='./images/Screenshot 2025-05-12 at 08.19.22.png' width= '500'/>
 
 - Multi-agent optimization uses multiple agents to cooperatively or competitively solve problems like TSP, balancing time (e.g. travel duration) and cost (e.g. fuel, tolls). Agents explore different routes in parallel, improving solution quality and efficiency.

@@ -1,3 +1,38 @@
+## RL and combinatorial optimization
+### Background
+Traveling Salesman Problem (TSP): Find the shortest route that visits all cities once and returns to the start.
+
+Job Shop Scheduling Problem (JSSP): Assign jobs to machines in a sequence that minimizes total completion time or delays.
+
+Chip Design: Optimize the placement and routing of components on a chip to reduce area, power use, and signal delays.
+
+Unit Commitment (UC): Decide which power units to turn on/off over time to meet demand at minimal cost while satisfying operational constraints.
+
+definition: 
+<img src='./images/Screenshot 2025-05-12 at 07.38.30.png' width= '500'/>
+
+traditional solutions : 
+Brute-force search: Tries all possible solutions; complexity is very slow for large 
+
+Dynamic programming: Breaks problems into subproblems; faster by reusing results.
+
+Branch and bound: Systematically explores solution space, pruning unpromising paths to reduce computation.
+
+evaluation algorithms: 
+pros: accurate solution, cons: height time and space complexity
+
+### RL solution
+TSP
+<img src='./images/Screenshot 2025-05-12 at 08.07.46.png' width= '500'/>
+
+### challenge
+- generalization ability of the solution: augmented dataset, emsemble learning
+<img src='./images/Screenshot 2025-05-12 at 08.19.22.png' width= '500'/>
+
+- Multi-agent optimization uses multiple agents to cooperatively or competitively solve problems like TSP, balancing time (e.g. travel duration) and cost (e.g. fuel, tolls). Agents explore different routes in parallel, improving solution quality and efficiency.
+<img src='./images/Screenshot 2025-05-12 at 09.03.06.png' width= '500'/>
+
+
 ## RL + LLM
 ### RLHF 
 - reinforcement learning with feedback : align AI behavior with human values and preferences. 
@@ -16,4 +51,3 @@
 - ***KTO*** : Kahneman-Tversky Optimization
 - <img src='./images/Screenshot 2025-05-11 at 10.10.57.png' width= '500'/>
 
-## Continue ...

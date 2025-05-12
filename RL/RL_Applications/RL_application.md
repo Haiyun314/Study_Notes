@@ -1,4 +1,4 @@
-[Source](https://www.icourse163.org/course/XHUN-1472829184)
+[Material Source](https://www.icourse163.org/course/XHUN-1472829184)
 
 - [RL and combinatorial optimization](#rl-and-combinatorial-optimization)
 - [RL + LLM](#rl--llm)
@@ -59,3 +59,4 @@ TSP
 - ***KTO*** : Kahneman-Tversky Optimization
 - <img src='./images/Screenshot 2025-05-11 at 10.10.57.png' width= '500'/>
 
+# continue ...

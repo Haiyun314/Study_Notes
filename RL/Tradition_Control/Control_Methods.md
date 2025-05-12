@@ -117,3 +117,6 @@ $$
 - The system converges if $\rho(A - B K_p) < 1$.
 - The limit of $S_k$ depends on system dynamics and proportional gain.
 - Proper tuning of $K_p$ is necessary to ensure convergence to $S_{\text{target}}$.
+
+
+# continue ...

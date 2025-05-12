@@ -2,7 +2,7 @@
 
 ## RL 
 - [RL Applications](./RL/RL_Applications/RL_application.md)
-- [Control](./RL/Tradition_Control/Control.md)
+- [Control Methods](./RL/Tradition_Control/Control.md)
 
 ## Tech Tools
 - [Ros2](./Tech%20Tools/Ros2/ros2.md)

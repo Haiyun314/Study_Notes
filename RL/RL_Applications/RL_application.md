@@ -1,7 +1,7 @@
 [Source](https://www.icourse163.org/course/XHUN-1472829184)
 
-[RL and combinatorial optimization](#rl-and-combinatorial-optimization)
-[RL + LLM](#rl--llm)
+- [RL and combinatorial optimization](#rl-and-combinatorial-optimization)
+- [RL + LLM](#rl--llm)
 
 ## RL and combinatorial optimization
 ### Background

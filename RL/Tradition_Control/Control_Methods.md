@@ -1,6 +1,5 @@
 [Convergence Analysis of the Proportional Control Term](#convergence-analysis-of-the-proportional-control-term)
 
-
 # Classical Control Approaches: PID Control
 
 The classical PID (proportional-integral-derivative) controller is generally defined as:

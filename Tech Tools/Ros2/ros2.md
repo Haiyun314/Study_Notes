@@ -1,4 +1,4 @@
-[Material source]()
+[References](#references)
 
 # ROS2 Concepts
 
@@ -240,3 +240,5 @@ if __name__ == '__main__':
 ```
 </details>
 
+## References
+1. ROS 2 Documentation: FoxyLogo: https://docs.ros.org/en/foxy/Tutorials.html

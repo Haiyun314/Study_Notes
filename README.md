@@ -1,6 +1,7 @@
 # Study_Notes
 
 ## RL 
+- [RL Basics](./RL/RL_basics/rl_basics.md)
 - [RL Applications](./RL/RL_Applications/RL_application.md)
 - [Control Methods](./RL/Tradition_Control/Control.md)
 

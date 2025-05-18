@@ -1,4 +1,4 @@
-⚠️ Note: Some mathematical formulas may not render properly on GitHub. For best viewing, open this file in a Markdown viewer like VSCode with math support.
+⚠️ Note: Some mathematical formulas may not render properly on GitHub. For best viewing, open that file in a Markdown viewer like VSCode with math support.
 
 # Study Notes
 

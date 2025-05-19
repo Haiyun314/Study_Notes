@@ -1,5 +1,8 @@
 [Bellman Equation](#bellman-equation)
-[References](#references)
+[Policy Network Optimization (Actor) analysis](#policy-network-optimization-actor-analysis)
+
+[BEllman Equation References](#be-references)
+[Policy Network Optimization (Actor) analysis references](#pno-references)
 
 # Bellman Equation
 
@@ -98,8 +101,51 @@ Thus, the iterative approach to solving the Bellman expectation equation converg
 This proves that the iterative method for solving the Bellman equation will always converge to the unique fixed point, which corresponds to the value function under policy $\pi$.
 
 
-## References
+## BE References
 
 1. Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press. 
 2. EE 290 Theory of Multi-armed Bandits and Reinforcement Learning Lecture 17- 3/16/2021 Lecturer: Jiantao Jiao Lecture 17: Bellman Operators, Policy Iteration, and Value Iteration
 3. Shiyu Zhao. Mathematical Foundations of Reinforcement Learning. Springer Singapore
+
+
+# Policy Network Optimization (Actor) analysis
+
+Before introducing the clipped objective used in PPO, it is important to address the inefficiency associated with sampling from the current policy. Since the policy changes after every update, collecting new data for each iteration is expensive and sample-inefficient. To overcome this, PPO reuses samples from the previous policy by applying *importance sampling*.
+
+The policy gradient can then be estimated using:
+
+$$
+\nabla_\theta J(\theta) \approx \mathbb{E}_{(s,a) \sim \pi_{\theta_{\text{old}}}} \left[ \frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)} \, \nabla_\theta \log \pi_\theta(a \mid s) \, \hat{A}_t \right]
+$$
+
+Note that the gradient of the log-probability can be expressed as:
+
+$$
+\nabla_\theta \log \pi_\theta(a \mid s) = \frac{\nabla_\theta \pi_\theta(a \mid s)}{\pi_\theta(a \mid s)}
+$$
+
+This identity is fundamental to the derivation of the policy gradient using the likelihood ratio trick.
+
+The **surrogate objective** used for policy optimization in PPO is then defined as:
+
+$$
+L^{\text{PG}}(\theta) = \mathbb{E}_{(s,a) \sim \pi_{\theta_{\text{old}}}} \left[ r_\theta(s,a) \, \hat{A}_t \right]
+$$
+
+where $ \hat{A}_t $ is the estimated advantage function, and the probability ratio is given by:
+
+$$
+r_\theta(s,a) = \frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)}
+$$
+
+To prevent overly large policy updates that may degrade performance, PPO introduces a clipped version of the objective:
+
+$$
+L^{\text{CLIP}}(\theta) = \mathbb{E}_{(s,a)} \left[ \min \left( r_\theta(s,a) \, \hat{A}_t, \, \text{clip}(r_\theta(s,a), 1 - \epsilon, 1 + \epsilon) \, \hat{A}_t \right) \right]
+$$
+
+This clipped surrogate objective constrains the size of the policy update, encouraging more stable training while still allowing for effective policy improvement.
+
+## PNO References
+- Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). *Proximal Policy Optimization Algorithms*. arXiv preprint [arXiv:1707.06347](https://arxiv.org/abs/1707.06347).
+- Rubinstein, R. Y. (1981). *Simulation and the Monte Carlo Method*. Wiley. See Chapter 5.7 for details on importance sampling.

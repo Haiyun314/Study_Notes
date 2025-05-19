@@ -1,7 +1,10 @@
-[Bellman Equation](#bellman-equation)
+[Bellman Equation](#bellman-equation) 
+
 [Policy Network Optimization (Actor) analysis](#policy-network-optimization-actor-analysis)
 
-[BEllman Equation References](#be-references)
+#### Reference
+[Bellman Equation References](#be-references) 
+
 [Policy Network Optimization (Actor) analysis references](#pno-references)
 
 # Bellman Equation

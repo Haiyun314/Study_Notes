@@ -1,3 +1,11 @@
+[Graphic interface](#graphic-interface)
+[image command](#image-command)
+[container](#container-command)
+[volumes](#volumes-and-bind-mounts)
+[Dockerfile](#dockerfile-basics)
+[Docker Flags](#-frequently-used-docker-flags)
+
+
 # Docker Basic
 
 | Concept        | Description                                                             |
@@ -146,3 +154,58 @@ docker login
 docker search <image_name>
 ```
 
+### 🔧 Frequently Used Docker Flags
+#### -it
+Meaning: Interactive mode with TTY
+
+Purpose: Needed for command-line interfaces like Micro-ROS Agent
+
+Equivalent: --interactive --tty
+
+#### --rm
+Meaning: Automatically remove container after it exits
+
+Purpose: Keeps system clean by avoiding leftover containers
+
+#### --privileged
+Meaning: Grants full device and kernel access to the container
+
+Purpose: Required for accessing hardware like serial ports (e.g., /dev/ttyUSB0)
+
+⚠️ Caution: Allows full root access to host devices. Use with care
+
+#### --net=host
+Meaning: Shares host’s network stack with the container
+
+Purpose: Enables ROS 2 DDS communication without configuration
+
+Note: Only works fully on Linux
+
+#### -v /dev:/dev
+Meaning: Mounts host's device tree into the container
+
+Purpose: Grants access to USB/serial devices
+
+#### --device=/dev/ttyUSB0
+Meaning: Gives access to a specific device only
+
+Purpose: More secure than --privileged, limits scope
+
+When to use: If only a single device is needed
+
+#### --name
+Meaning: Names the container instance
+
+Purpose: Useful for managing, referencing, or debugging containers
+
+#### -e ROS_DOMAIN_ID=42
+Meaning: Sets environment variables inside the container
+
+Purpose: Needed to configure ROS 2 isolation domains
+
+#### --network ros_net
+Alternative to: --net=host
+
+Purpose: Connects container to a user-defined Docker network
+
+Note: May require additional setup for ROS 2 discovery to work

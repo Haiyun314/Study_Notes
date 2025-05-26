@@ -209,3 +209,12 @@ Alternative to: --net=host
 Purpose: Connects container to a user-defined Docker network
 
 Note: May require additional setup for ROS 2 discovery to work
+
+```bash
+docker run -it --rm \
+  --privileged \
+  --net=host \
+  -v /dev:/dev \
+  -v ~/config.yaml:/app/config.yaml \
+  microros/micro-ros-agent:iron serial --dev /dev/ttyUSB0
+```

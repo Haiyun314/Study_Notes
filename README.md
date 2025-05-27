@@ -22,4 +22,7 @@
   Essential Linux commands and shell usage.
 
 - [Docker](./Tech%20Tools/docker/docker.md)  
-  Containerization basics and Docker workflow.
+  Introduction to containerization concepts and a practical guide to the Docker workflow.
+
+- [W&B](./Tech%20Tools/weights&biases/wandb.md)
+  Overview of Weights & Biases tools for experiment tracking, model management, and visualization in machine learning projects.

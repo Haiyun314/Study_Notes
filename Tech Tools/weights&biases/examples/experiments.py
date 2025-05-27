@@ -52,7 +52,7 @@ def train():
             pred_y = model(train_x, training=True)
             loss = tf.reduce_mean(tf.square(pred_y - train_y))
         grads = tape.gradient(loss, model.trainable_variables)
-        # grads = [tf.clip_by_norm(g, 1.0) for g in grads]  # Gradient clipping
+        grads = [tf.clip_by_norm(g, 1.0) for g in grads]  # Gradient clipping
         optimizer.apply_gradients(zip(grads, model.trainable_variables))
 
         val_pred = model(val_x, training=False)
@@ -102,5 +102,5 @@ def train():
     wandb.finish()
 
 if __name__ == "__main__":
-    sweep_id = wandb.sweep(sweep_config, project='tf-wandb-sweep-demo3')
-    wandb.agent(sweep_id, function=train, count=6)
+    sweep_id = wandb.sweep(sweep_config, project='tf-wandb-sweep-demo4')
+    wandb.agent(sweep_id, function=train, count=2)

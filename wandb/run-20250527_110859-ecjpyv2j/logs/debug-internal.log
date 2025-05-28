@@ -1,0 +1,16 @@
+{"time":"2025-05-27T11:08:59.523044+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/haiyunning/Desktop/0_Py_project/Study_Notes/wandb/run-20250527_110859-ecjpyv2j/logs/debug-core.log"}
+{"time":"2025-05-27T11:08:59.802622+02:00","level":"INFO","msg":"created new stream","id":"ecjpyv2j"}
+{"time":"2025-05-27T11:08:59.80267+02:00","level":"INFO","msg":"stream: started","id":"ecjpyv2j"}
+{"time":"2025-05-27T11:08:59.802669+02:00","level":"INFO","msg":"handler: started","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:08:59.802681+02:00","level":"INFO","msg":"sender: started","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:08:59.802692+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:09:00.014707+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T11:09:01.86283+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T11:09:01.862983+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T11:09:02.871268+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact best_model","runtime_seconds":1.0157215,"subtasks":[{"desc":"best_model.h5","runtime_seconds":0.20429875,"progress":"15.6KB/15.6KB"}]}],"total_operations":1}}
+{"time":"2025-05-27T11:09:04.704167+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T11:09:05.232638+02:00","level":"INFO","msg":"stream: closing","id":"ecjpyv2j"}
+{"time":"2025-05-27T11:09:05.232704+02:00","level":"INFO","msg":"handler: closed","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:09:05.232721+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:09:05.232723+02:00","level":"INFO","msg":"sender: closed","stream_id":"ecjpyv2j"}
+{"time":"2025-05-27T11:09:05.23308+02:00","level":"INFO","msg":"stream: closed","id":"ecjpyv2j"}

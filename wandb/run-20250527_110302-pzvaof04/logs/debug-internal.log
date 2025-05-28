@@ -1,0 +1,16 @@
+{"time":"2025-05-27T11:03:02.830851+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/haiyunning/Desktop/0_Py_project/Study_Notes/wandb/run-20250527_110302-pzvaof04/logs/debug-core.log"}
+{"time":"2025-05-27T11:03:03.10879+02:00","level":"INFO","msg":"created new stream","id":"pzvaof04"}
+{"time":"2025-05-27T11:03:03.108834+02:00","level":"INFO","msg":"handler: started","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:03.108836+02:00","level":"INFO","msg":"stream: started","id":"pzvaof04"}
+{"time":"2025-05-27T11:03:03.108862+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:03.10893+02:00","level":"INFO","msg":"sender: started","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:03.555958+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T11:03:05.566932+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T11:03:05.566981+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T11:03:06.577999+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact best_model","runtime_seconds":1.018916041,"subtasks":[{"desc":"best_model.h5","runtime_seconds":0.259108541,"progress":"15.6KB/15.6KB"}]}],"total_operations":1}}
+{"time":"2025-05-27T11:03:08.746363+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T11:03:09.233327+02:00","level":"INFO","msg":"stream: closing","id":"pzvaof04"}
+{"time":"2025-05-27T11:03:09.233344+02:00","level":"INFO","msg":"handler: closed","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:09.233352+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:09.233356+02:00","level":"INFO","msg":"sender: closed","stream_id":"pzvaof04"}
+{"time":"2025-05-27T11:03:09.233511+02:00","level":"INFO","msg":"stream: closed","id":"pzvaof04"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-27T11:11:21.584506+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/haiyunning/Desktop/0_Py_project/Study_Notes/wandb/run-20250527_111121-821gyefg/logs/debug-core.log"}
+{"time":"2025-05-27T11:11:21.865542+02:00","level":"INFO","msg":"created new stream","id":"821gyefg"}
+{"time":"2025-05-27T11:11:21.865583+02:00","level":"INFO","msg":"stream: started","id":"821gyefg"}
+{"time":"2025-05-27T11:11:21.865591+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:21.865607+02:00","level":"INFO","msg":"sender: started","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:21.865596+02:00","level":"INFO","msg":"handler: started","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:22.109607+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-27T11:11:23.995855+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-27T11:11:23.9959+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-27T11:11:25.007182+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact best_model","runtime_seconds":1.018563625}],"total_operations":1}}
+{"time":"2025-05-27T11:11:26.835123+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-27T11:11:27.236971+02:00","level":"INFO","msg":"stream: closing","id":"821gyefg"}
+{"time":"2025-05-27T11:11:27.237008+02:00","level":"INFO","msg":"handler: closed","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:27.237028+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:27.237036+02:00","level":"INFO","msg":"sender: closed","stream_id":"821gyefg"}
+{"time":"2025-05-27T11:11:27.237495+02:00","level":"INFO","msg":"stream: closed","id":"821gyefg"}

@@ -1,0 +1,7 @@
+{"time":"2025-05-27T10:48:00.329308+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/haiyunning/Desktop/0_Py_project/Study_Notes/wandb/run-20250527_104800-wv8k4pb0/logs/debug-core.log"}
+{"time":"2025-05-27T10:48:00.639081+02:00","level":"INFO","msg":"created new stream","id":"wv8k4pb0"}
+{"time":"2025-05-27T10:48:00.639294+02:00","level":"INFO","msg":"stream: started","id":"wv8k4pb0"}
+{"time":"2025-05-27T10:48:00.6393+02:00","level":"INFO","msg":"handler: started","stream_id":"wv8k4pb0"}
+{"time":"2025-05-27T10:48:00.639313+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"wv8k4pb0"}
+{"time":"2025-05-27T10:48:00.639488+02:00","level":"INFO","msg":"sender: started","stream_id":"wv8k4pb0"}
+{"time":"2025-05-27T10:48:00.849731+02:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,4 +1,6 @@
+[Conda install Ros2 on Mac](#conda-install-ros2-on-mac)
 [References](#references)
+
 
 # ROS2 Concepts
 
@@ -241,8 +243,32 @@ if __name__ == '__main__':
 </details>
 
 
-
+## Conda install ros2 on mac
+```bash
+conda install mamba -c conda-forge
+conda create -n ros2_env
+conda activate ros2_env
+conda config --env --add channels conda-forge
+conda config --env --remove channels defaults
+conda config --env --add channels robostack-humble
+conda install ros-humble-desktop
+# initialize the ros2 enviroment
+conda deactivate
+conda activate ros_env
+conda install compilers cmake pkg-config make ninja colcon-common-extensions catkin_tools rosdep
+# testing
+rviz2
+# install gazebo
+brew tap osrf/simulation
+brew install gz-harmonic
+# lunch gazebo
+gz sim -s
+# uninstall 
+brew uninstall gz-harmonic
+```
 
 ## 
 ## References
-1. ROS 2 Documentation: FoxyLogo: https://docs.ros.org/en/foxy/Tutorials.html
+1.1 ROS 2 Documentation : FoxyLogo: https://docs.ros.org/en/foxy/Tutorials.html
+2.1 conda install on mac : https://robostack.github.io/GettingStarted.html#__tabbed_3_2
+2.2 install gazebo : https://gazebosim.org/docs/harmonic/install_osx/

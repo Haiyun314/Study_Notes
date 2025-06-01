@@ -1,8 +1,35 @@
 [Conda install Ros2 on Mac](#conda-install-ros2-on-mac)
+[Ros2 concepts](#ros2-concepts)
+[Commands](#commands)
 [References](#references)
 
+## Commands
+```bash
+## ROS 2 Common Commands
 
-# ROS2 Concepts
+ros2 pkg list # List all installed packages
+ros2 pkg executables <package_name> # Show executables inside a package
+
+ros2 node list # List currently running nodes
+ros2 node info /<node_name> # Get information about a specific node
+
+ros2 topic list # List active topics
+ros2 topic info /<topic_name> # Show info about a specific topic
+ros2 topic echo /<topic_name> # Echo messages published on a topic
+
+ros2 service list # List services
+ros2 service info /<service_name> # Show info about a specific service
+ros2 service call /<service_name> <srv_type> "{args}" # Call a service
+
+ros2 param list /<node_name> # List parameters on a node
+ros2 param get /<node_name> <param_name> # Get a parameter value
+ros2 param set /<node_name> <param_name> <value> # Set a parameter value
+
+ros2 launch <package_name> <launch_file.py> # Launch a ROS 2 launch file
+```
+
+
+## ROS2 Concepts
 
 ###
 <img src="./images/Screenshot%202025-05-07%20at%2017.39.37.png" alt="ROS2 Concepts" width="400"/>

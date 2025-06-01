@@ -15,6 +15,9 @@
 
 ## Tech Tools
 
+- [Dev Env](./Tech%20Tools/dev_env_armsetup/dev_env_armsetup.md)
+  Step-by-step guide for setting up a development environment on ARM-based Linux with VS Code, ROS 2 Iron (compatible with Gazebo Garden), and GZ simulation tools.
+
 - [ROS 2](./Tech%20Tools/Ros2/ros2.md)  
   Introduction to the Robot Operating System 2 (ROS 2) framework.
 

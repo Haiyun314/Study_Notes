@@ -1,7 +1,7 @@
-[Conda install Ros2 on Mac](#conda-install-ros2-on-mac)
-[Ros2 concepts](#ros2-concepts)
-[Commands](#commands)
-[References](#references)
+- [Conda install Ros2 on Mac](#conda-install-ros2-on-mac)
+- [Ros2 concepts](#ros2-concepts)
+- [Commands](#commands)
+- [References](#references)
 
 ## Commands
 ```bash

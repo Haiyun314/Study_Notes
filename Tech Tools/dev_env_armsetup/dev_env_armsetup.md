@@ -1,6 +1,6 @@
-[install vscode on arm based linux](#install-vscode-on-arm-based-linux)
-[install ros2 iron (align with gz-garden)](#install-ros2-iron-align-with-gz-garden)
-[install gazebo on arm linux](#install-gazebo-on-arm-linux)
+- [install vscode on arm based linux](#install-vscode-on-arm-based-linux)
+- [install ros2 iron (align with gz-garden)](#install-ros2-iron-align-with-gz-garden)
+- [install gazebo on arm linux](#install-gazebo-on-arm-linux)
 
 
 ## install gazebo on arm linux

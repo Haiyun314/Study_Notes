@@ -26,6 +26,8 @@ ros2 param get /<node_name> <param_name> # Get a parameter value
 ros2 param set /<node_name> <param_name> <value> # Set a parameter value
 
 ros2 launch <package_name> <launch_file.py> # Launch a ROS 2 launch file
+
+ros2 pkg create --build-type ament_cmake/ament_python learning_pkg_c/learning_pkg_py # create pkg
 ```
 
 

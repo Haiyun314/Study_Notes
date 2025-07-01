@@ -44,6 +44,10 @@ sudo apt update
 sudo apt install ros-iron-ros-gz
 ```
 
+## install ros2_control from source
+```bash
+https://control.ros.org/humble/doc/getting_started/getting_started.html # humble - gazebo-Fortress
+```
 
 ## install vscode on arm based linux
 ```bash

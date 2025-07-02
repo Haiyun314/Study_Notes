@@ -11,4 +11,4 @@ initialize the plugin in the world file
       name="ignition::gazebo::systems::NavSat">
     </plugin>
 ```
-how to find the filename and name for the plugin ??? 
+how to find the filename and name for the plugin ???  check the provided examples from the package sources

@@ -11,4 +11,14 @@ initialize the plugin in the world file
       name="ignition::gazebo::systems::NavSat">
     </plugin>
 ```
-how to find the filename and name for the plugin ???  check the provided examples from the package sources
+### How to find the `filename` and `name` for the plugin?
+
+1. **Approach one**: Check the provided examples from the package sources.
+2. **Approach two**: Locate `ignition-gazebo-target_sensor-system` in the Gazebo installation directory.
+3. **Approach three**: Use `strings` to read symbols from compiled libraries:
+
+    ```bash
+    strings /usr/lib/aarch64-linux-gnu/libignition-sensors6-lidar.so | grep Lidar
+    ```
+
+    This can reveal names like `ignition::gazebo::systems::Lidar`.

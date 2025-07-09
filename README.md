@@ -29,3 +29,7 @@
 
 - [W&B](./Tech%20Tools/weights&biases/wandb.md)
   Overview of Weights & Biases tools for experiment tracking, model management, and visualization in machine learning projects.
+
+- [workflow](./Tech%20Tools/workflow_doc/workflow.md)
+
+- [Finite element]()

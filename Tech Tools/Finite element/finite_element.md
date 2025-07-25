@@ -25,7 +25,6 @@ where:
 - \( N \) is the number of basis functions.
 
 ## Procedure
-
 1. **Discretize the domain** \( \Omega \) into small elements (e.g., line segments in 1D, triangles in 2D).
 2. **Choose basis functions** \( \phi_i(x) \) with local support on each element.
 3. **Formulate the weak form** of the PDE. For example, turn:

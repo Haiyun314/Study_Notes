@@ -1,4 +1,7 @@
-# Overall Explanation of the Finite Element Method
+## Questions: 
+- In fluid dynamics, directly computing gradients can be impractical. Therefore, we use the concept of weak derivatives, which allows us to reformulate problems into a weak form. This approach not only makes the computations more feasible but also provides a framework to rigorously discuss the existence and uniqueness of solutions to the problem.
+
+## Overall Explanation of the Finite Element Method
 
 The **Finite Element Method (FEM)** is a numerical technique used to approximate solutions of **partial differential equations (PDEs)**. It is particularly effective for complex geometries and boundary conditions.
 

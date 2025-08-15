@@ -7,7 +7,9 @@
 ```bash
 sudo apt update
 sudo apt install lsb-release wget gnupg
-wget https://packages.osrfoundation.org/gazebo.gpg -O - | sudo apt-key add -
+wget https://packages.osrfoundation.org/gazebo.gpg -O - |
+
+ sudo apt-key add -
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list'
 sudo apt update
 sudo apt install gz-garden

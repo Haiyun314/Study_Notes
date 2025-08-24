@@ -37,3 +37,4 @@
 ## Modeling
 
 - [A simplified helicoptor dynamics modeling](./RMaC/A%20simplified%20helicoptor%20dynamics%20modeling/A_Simplified_Helicopter_UAV_Modeling.pdf)
+
